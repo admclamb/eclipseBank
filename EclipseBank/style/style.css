@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --main-bg-grd1: #0c0398;
+  --main-bg-grd2: #030031;
+  --clr-main: #030035;
+  --clr-sec: #0c0398;
+  --clr-gold: #ce9b01;
+  --clr-light: #d9eaf5;
+  --bg-white: #eeeeff;
+  --gold-bg-grd1: #fdecb9;
+  --gold-bg-grd2: #ffe084;
+  /* gradient for god 66% */
+}
+
+.text-main-gold {
+  color: var(--clr-gold);
+}
+
+.a-link-gold:hover {
+  color: #ad8200;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.bg-main {
+  background-color: var(--bg-white);
+}
+
+.bg-primary-clr {
+  background-color: var(--main-bg-grd2);
+}
+
+.bg-light {
+  background-color: var(--clr-light);
+}
+
+.main-container {
+  width: 30rem;
+  border-radius: 20px;
+}
+
+.hero-container {
+  border-radius: 20px 20px 0 0;
+}
+.user-container {
+  margin-top: 3rem;
+  width: 20rem;
+}
+
+.form-container {
+  margin-top: 3rem;
+}
+
+.user-info-container {
+  position: le;
+}
+
+.account-container {
+  background: linear-gradient(
+    to bottom right,
+    var(--gold-bg-grd1),
+    var(--gold-bg-grd2)
+  );
+}
+
+.btnMain {
+  width: 200px;
+}
+
+.btnSec {
+  width: 75px;
+}
